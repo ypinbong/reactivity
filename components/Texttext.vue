@@ -2,6 +2,7 @@
   <div class="child">
     <h2>Child Component</h2>
     <p>{{ getText() }}</p>
+    <h5>Counter: {{ $store.state.text.counter }}</h5>
   </div>
 </template>
 

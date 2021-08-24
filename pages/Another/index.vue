@@ -14,7 +14,7 @@
 </template>
 <script>
 export default {
-  layout: 'default',
+  name: 'Another',
   data () {
     return {
       item: null,
